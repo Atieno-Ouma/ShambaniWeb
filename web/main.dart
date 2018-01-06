@@ -1,4 +1,4 @@
-import 'package:Shambani/app_component.dart';
+import 'package:ShambaniWeb/app_component.dart';
 import 'package:angular/angular.dart';
 import 'package:firebase/firebase.dart';
 void main() {

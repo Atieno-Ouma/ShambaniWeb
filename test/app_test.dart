@@ -2,7 +2,7 @@
 @TestOn('browser')
 import 'dart:async';
 
-import 'package:Shambani/app_component.dart';
+import 'package:ShambaniWeb/app_component.dart';
 import 'package:angular/angular.dart';
 import 'package:angular_test/angular_test.dart';
 import 'package:pageloader/objects.dart';

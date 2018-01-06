@@ -1,7 +1,7 @@
-name: Shambani
+name: ShambaniWeb
 description: Simple Market & Food ordering
 version: 0.0.1
-homepage: https://github.com/Janamou/firebase-demo-ng
+homepage: https://github.com/KortnevDmitriy/ShambaniWeb
 author: Kortnev Dmitriy <kortnevdmitriy@gmail.com>
 
 environment:
