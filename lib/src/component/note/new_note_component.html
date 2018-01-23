@@ -1,8 +1,8 @@
 <form (ngSubmit)="submitForm()" *ngIf="service.user != null" id="notes-form">
     <div class="mdl-grid">
-        <h2 class="mdl-cell mdl-cell--12-col">Add new awesome note</h2>
+        <h2 class="mdl-cell mdl-cell--12-col">Add Your Product</h2>
         <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone mdl-cell--12-col-tablet">
-            <label for="new-note">Your awesome note<sup>*</sup></label><br>
+            <label for="new-note">Your Product Details<sup>*</sup></label><br>
             <input type="text" id="new-note-title" placeholder="Note title" [(ngModel)]="note.title">
             <textarea placeholder="Note text" id="new-note" cols="10" rows="5" [(ngModel)]="note.text"
                       required></textarea>
