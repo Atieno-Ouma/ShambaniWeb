@@ -3,6 +3,15 @@
         <span class="mdl-layout-title visible-desktop">Shambani Web</span>
         <span class="mdl-layout-title visible-mobile">Shambani</span>
         <div class="mdl-layout-spacer"></div>
+        <div class="android-navigation-container">
+            <nav class="android-navigation mdl-navigation">
+                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Farmers</a>
+                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Water</a>
+                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Marketplace</a>
+                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Land Lease</a>
+                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Forests</a>
+            </nav>
+        </div>
         <nav class="mdl-navigation">
             <ul>
                 <li id="profile" *ngIf="service.user != null">
@@ -16,5 +25,6 @@
                 </li>
             </ul>
         </nav>
+
     </div>
 </header>
