@@ -1,6 +1,8 @@
 # Shambani Web
 
-Demo app for my talk at DevFest Ukraine 2017 and DevFest CZ 2017. The application is written in [AngularDart](https://webdev.dartlang.org/angular) and uses the [Firebase library](https://github.com/firebase/firebase-dart/).
+Shambani is A Swahili Word that translates to English to mean "In/From the Farm". Shambani is a platform to unify & link the Food System in Kenya, Uganda, Tanzania, Rwanda, Burundi, Somalia, South Sudan & Ethiopia. From producers(Farmers/vendors/manufacturers/service providers) to consumers/customers/clients that span those countries. 
+
+Shambani Web makes it easy for one to do online food shopping from groceries to live animals.
 
 ![Shambani Web App](https://github.com/kortnevdmitriy/ShambaniWeb/blob/master/app.png)
 
