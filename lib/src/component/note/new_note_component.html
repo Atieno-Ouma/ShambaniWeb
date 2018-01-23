@@ -3,12 +3,12 @@
         <h2 class="mdl-cell mdl-cell--12-col">Add Your Product</h2>
         <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone mdl-cell--12-col-tablet">
             <label for="new-note">Your Product Details<sup>*</sup></label><br>
-            <input type="text" id="new-note-title" placeholder="Note title" [(ngModel)]="note.title">
-            <textarea placeholder="Note text" id="new-note" cols="10" rows="5" [(ngModel)]="note.text"
+            <input type="text" id="new-note-title" placeholder="Product Title" [(ngModel)]="note.title">
+            <textarea placeholder="Product Description" id="new-note" cols="10" rows="5" [(ngModel)]="note.text"
                       required></textarea>
         </div>
         <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone mdl-cell--12-col-tablet" id="note-image">
-            <label for="upload-image">Attach image</label><br>
+            <label for="upload-image">Attach product image</label><br>
             <input type="file" id="upload-image" accept="image/*" *ngIf="note.imageUrl == null"
                    (change)="uploadImage($event)" [disabled]="fileDisabled">
             <div id="actual-image-container" *ngIf="note.imageUrl != null">
